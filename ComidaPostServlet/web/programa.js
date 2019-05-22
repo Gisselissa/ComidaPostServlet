@@ -16,7 +16,7 @@ class Pedido {
         // 4- Enviar el Json al servidor con FETCH
         fetch("Entrega",
                 {method: "POST",
-                    body: comidaJson;
+                    body: comidaJson
                 });
     }
 

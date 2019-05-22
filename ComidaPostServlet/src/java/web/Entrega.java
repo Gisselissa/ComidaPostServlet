@@ -19,7 +19,6 @@ public class Entrega extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Estas en el POST del Server");
-        req.getReader().readLine();
         System.out.println("El pedido del cliente es: " + req.getReader().readLine());
     }
 }
